@@ -4,4 +4,4 @@ jdk:
  - oraclejdk8
 
 script:
- - chmod +x ./gradlew bulid connectedCheck
+ - chmod +x ./gradlew assemble check
