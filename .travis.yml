@@ -2,3 +2,6 @@ language: java
 
 jdk:
  - oraclejdk8
+
+script:
+ - chmod +x ./gradlew bulid connectedCheck
